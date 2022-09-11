@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 import { FaExternalLinkAlt } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
 
 const contactData = {
   phone: ["+92 324 3329192", "+971 58 305 1937"],
@@ -9,11 +10,13 @@ const contactData = {
 };
 
 function Contact() {
+  const formRef = useRef();
+
   const [formdata, setFormdata] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
+    from_name: "",
+    from_email: "",
+    from_subject: "",
+    from_message: "",
   });
 
   const [error, setError] = useState(false);
@@ -21,21 +24,36 @@ function Contact() {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    if (!formdata.name) {
+    if (!formdata.from_name) {
       setError(true);
       setMessage("Name is required");
-    } else if (!formdata.email) {
+    } else if (!formdata.from_email) {
       setError(true);
       setMessage("Email is required");
-    } else if (!formdata.subject) {
+    } else if (!formdata.from_subject) {
       setError(true);
       setMessage("Subject is required");
-    } else if (!formdata.message) {
+    } else if (!formdata.from_message) {
       setError(true);
       setMessage("Message is required");
     } else {
+      emailjs
+        .sendForm(
+          "service_eg36q6j",
+          "template_xrgegwa",
+          formRef.current,
+          "z9lTIutluZMEOcuT8"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
       setError(false);
-      setMessage("You message has been sent!!!");
+      setMessage("Your message has been sent!!!");
     }
   };
 
@@ -99,17 +117,17 @@ function Contact() {
       </div>
 
       <div className="col-md-8">
-        <form className="contact-form" onSubmit={submitHandler}>
+        <form ref={formRef} className="contact-form" onSubmit={submitHandler}>
           <div className="row">
             <div className="column col-md-6">
               <div className="form-group">
                 <input
                   type="text"
                   className="form-control"
-                  name="name"
+                  name="from_name"
                   placeholder="Your name"
                   onChange={handleChange}
-                  value={formdata.name}
+                  value={formdata.from_name}
                 />
               </div>
             </div>
@@ -119,10 +137,10 @@ function Contact() {
                 <input
                   type="email"
                   className="form-control"
-                  name="email"
+                  name="from_email"
                   placeholder="Email address"
                   onChange={handleChange}
-                  value={formdata.email}
+                  value={formdata.from_email}
                 />
               </div>
             </div>
@@ -132,10 +150,10 @@ function Contact() {
                 <input
                   type="text"
                   className="form-control"
-                  name="subject"
+                  name="from_subject"
                   placeholder="Subject"
                   onChange={handleChange}
-                  value={formdata.subject}
+                  value={formdata.from_subject}
                 />
               </div>
             </div>
@@ -143,12 +161,12 @@ function Contact() {
             <div className="column col-md-12">
               <div className="form-group">
                 <textarea
-                  name="message"
+                  name="from_message"
                   className="form-control"
                   rows="5"
                   placeholder="Message"
                   onChange={handleChange}
-                  value={formdata.message}
+                  value={formdata.from_message}
                 ></textarea>
               </div>
             </div>

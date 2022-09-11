@@ -12,7 +12,7 @@ import {
 const headerData = {
   name: "Shahzaib",
   designation: "Full-stack Developer",
-  imageThumb: "/images/profile1.png",
+  imageThumb: "/images/profilesm.png",
   social: {
     facebook: "https://www.facebook.com/mshahzaib.shoaib",
     twitter: "https://twitter.com/mshahzaib101ed",
