@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import Testimonial from "../Items/Testimonial";
+import useWindowDimensions from "./windowDimesion";
 
 const testimonialsData = [
   {
@@ -58,12 +59,14 @@ const testimonialsData = [
 ];
 
 function Testimonials() {
+  const { height, width } = useWindowDimensions();
+
   const settings = {
     dots: true,
     arrows: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: width > 700 ? 2 : 1,
     slidesToScroll: 1,
   };
 

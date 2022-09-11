@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import useWindowDimensions from "./windowDimesion";
 
 const clientsData = [
   {
@@ -25,12 +26,14 @@ const clientsData = [
 ];
 
 function Clients() {
+  const { height, width } = useWindowDimensions();
+
   const settings = {
     dots: false,
     arrows: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: width > 700 ? 4 : 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,

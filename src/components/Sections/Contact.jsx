@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 const contactData = {
-  phone: ["+92 324 3329192"],
+  phone: ["+92 324 3329192", "+971 58 305 1937"],
   email: ["mshahzaib101ed@gmail.com"],
   location: "Upwork",
 };
@@ -62,7 +64,9 @@ function Contact() {
           <div className="details">
             <h5>Phone</h5>
             {contactData.phone.map((singlePhone, index) => (
-              <span key={index}>{singlePhone}</span>
+              <span style={{ display: "block" }} key={index}>
+                {singlePhone}
+              </span>
             ))}
           </div>
         </div>
@@ -84,8 +88,10 @@ function Contact() {
               <a
                 href="https://www.upwork.com/freelancers/~0195d000babe5a3a30"
                 target="_blank"
+                style={{ textDecoration: "underline" }}
               >
                 {contactData.location}{" "}
+                <FaExternalLinkAlt style={{ marginLeft: 5 }} />
               </a>
             </span>
           </div>
