@@ -2,13 +2,13 @@ import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 
 const aboutData = {
-  cvpath: "media/Software-Developer.pdf",
+  cvpath: "media/resume.pdf",
   image: "images/profile1.png",
   name: "Muhammad Shahzaib",
   location: "Dubai, UAE/ Karachi, Pakistan",
   birthday: "6 Jan, 2000",
   email: "mshahzaib101ed@gmail.com",
-  aboutMe: `I am Shahzaib, Full-stack developer from UAE / Pakistan. I specialize in responsive web and application development for startups and small to medium size businesses.
+  aboutMe: `I am Shahzaib, Full-stack developer from UAE / Pakistan. I have specialized in responsive web and application development for startups and small to medium size businesses.
     My skill set includes wide-ranging expertise in Javascript frameworks such as React.js, Next.js and Gatsby.js. I am also great at Node.js, Bootstrap, Firebase, AWS, MongoDB, Python and a whole host of other technologies, and libraries. Whatever your needs are, I will find a solution that fits it.
     
     `,

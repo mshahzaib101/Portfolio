@@ -65,7 +65,7 @@ const allData = [
     image: "images/portfolio/portfolio7.jpg",
     link: "https://yeschef.me/",
     details:
-      "The client was from fiverr, it's a Subscription Video Service For Cooking Classes.",
+      "It's a subscription based video learning platform for cooking classes.",
   },
   {
     id: 6,
@@ -73,7 +73,7 @@ const allData = [
     category: ["upwork / fiverr projects"],
     image: "images/portfolio/portfolio8.jpg",
     link: "https://chemishield.com/",
-    details: "The client was from fiverr, it's a Waste Management Software",
+    details: "It's a Waste Management Software",
   },
   {
     id: 7,
