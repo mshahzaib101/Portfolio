@@ -13,7 +13,7 @@ const skillData = {
     },
     {
       id: 1,
-      name: "JavaScript",
+      name: "JavaScript / Typescript",
       percentage: 85,
     },
     {
@@ -62,13 +62,22 @@ const skillData = {
     {
       id: 8,
       name: "Python / Tensorflow / Numpy",
-      percentage: 50,
+      percentage: 65,
     },
-
+    {
+      id: 11,
+      name: "Java",
+      percentage: 60,
+    },
     {
       id: 10,
       name: "Mailchimp / HubSpot",
       percentage: 70,
+    },
+    {
+      id: 12,
+      name: "Blockchain",
+      percentage: 60,
     },
   ],
 };

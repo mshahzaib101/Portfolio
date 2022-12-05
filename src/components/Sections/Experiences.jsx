@@ -5,7 +5,7 @@ const experiencesData = [
   {
     id: 1,
     year: "2020 - Present",
-    degree: "Vaionex, US — Full-stack developer, Lead developer",
+    degree: "Vaionex, US — Senior Full-stack developer, Lead developer",
     content:
       "I am working as a Full-stack and Lead developer at Vaionex since last 2 years. Vaionex provides blockchain solutions.",
     bullets: [
@@ -21,7 +21,7 @@ of significant projects`,
   {
     id: 2,
     year: "2019 - 2020",
-    degree: "Freelancer at Upwork / Fiverr",
+    degree: "Upwork — MERN-stack developer",
     content: `I was Top Rated freelancer on Upwork in 2020. I worked with 20+ clients mostly
       working on Next.js and express.js.`,
     profileLink1: "https://www.upwork.com/freelancers/~0195d000babe5a3a30",
@@ -38,10 +38,10 @@ of significant projects`,
   },
   {
     id: 2,
-    year: "2019 - 2019",
+    year: "2018 - 2019",
     degree: "Hasati, US — MERN-stack developer",
     content:
-      "I was working part-time as a MERN developer in Hasati. I was mostly working on React.js and Node.js. It was a remote job.",
+      "I was working as a MERN developer in Hasati, mostly working on React.js and Node.js, building admin panels that handle realtime telecom data.",
     link: "https://hasati.com/",
     bullets: [
       `Designed and developed user-friendly admin panels on React.js, including an
@@ -55,11 +55,30 @@ of significant projects`,
   },
   {
     id: 10,
-    year: "2018 - 2019",
+    year: "2017 - 2018",
     degree: "Axiom, Pakistan — Front-end developer",
     content:
-      "I was working part-time as a front-end developer in Axiom. I was mostly working on React.js.",
+      "I was working as a front-end developer in Axiom. I was mostly working using MERN Stack.",
     link: "https://axiom-mentor.com/",
+    bullets: [
+      "Performed quality control testing using Jest/Enzyme.",
+      "Collaborated with external programmers to coordinate delivery of 6 new software applications.",
+
+      "Developed full-stack web applications which processed, analyzed, and rendered data visually.",
+    ],
+  },
+  {
+    id: 10,
+    year: "2016 - 2017",
+    degree: "Freelancer — MERN-stack developer",
+    content:
+      "As a freelancer, I have worked on 12+ different projects during this period. I was working mostly on the backend side using Nodejs, Java, and Python.",
+    bullets: [
+      "Collaborated on the Complexity Score tool, which removed process bottlenecks by assigning scores to cost, time, and compliance issues, increasing efficiency by 72%.",
+      "Developed user interfaces with modern JavaScript frameworks, HTML5, and CSS3, which improved user satisfaction by 31%.",
+
+      "Designed and developed backend servers using Java and Python for different clients.",
+    ],
   },
   {
     id: 9,

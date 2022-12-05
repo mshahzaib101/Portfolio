@@ -3,10 +3,10 @@ import { Link as ScrollLink } from "react-scroll";
 
 const herosectionData = {
   name: "Shahzaib",
-  aboutMe: `
-    Hi there. I am a Full Stack Web Developer with a focus on React.js Development for the last 4+ years.
-    One of my specialties is taking an idea from scratch and creating a full-fledged platform.
-    `,
+  aboutMe:
+    "Hi there. I am a Full Stack Web Developer with a focus on React.js Development for the last 6 years. Apart from that, I have two years of experience as a Lead Developer with five developers working directly under me.",
+  aboutMe2:
+    "One of my specialties is taking an idea from scratch and creating a full-fledged platform.",
 };
 
 function Herosection() {
@@ -20,7 +20,11 @@ function Herosection() {
           I’m {herosectionData.name}
           <span className="dot"></span>
         </h1>
-        <p className="mb-4">{herosectionData.aboutMe}</p>
+        <p className="mb-4">
+          <span style={{ display: "block" }}> {herosectionData.aboutMe}</span>
+
+          <span style={{ display: "block" }}>{herosectionData.aboutMe2}</span>
+        </p>
         <ScrollLink
           activeClass="active"
           to="section-portfolios"
