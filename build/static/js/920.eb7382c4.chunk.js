@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamshahzaib=self.webpackChunkiamshahzaib||[]).push([[920],{5920:(a,s,e)=>{a.exports=e.p+"static/media/work-space.7348c19231bcb48e0837.md"}}]);

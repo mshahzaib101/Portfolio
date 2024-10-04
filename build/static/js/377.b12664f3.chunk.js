@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamshahzaib=self.webpackChunkiamshahzaib||[]).push([[377],{1377:(a,e,s)=>{a.exports=s.p+"static/media/the-ugly-truth-about-design.a6c056dee77182ce5a0b.md"}}]);
