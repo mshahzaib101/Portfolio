@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 const herosectionData = {
   name: "Shahzaib",
   aboutMe:
-    "Hi there. I am a Full Stack Web Developer with a focus on React.js Development for the last 6 years. Apart from that, I have two years of experience as a Lead Developer with five developers working directly under me.",
+    "Hi there. I am a Full Stack Web Developer with a focus on React.js | Next.js | AWS | Node.js | Fastify.js | Development for the last 6 years. Apart from that, I have two years of experience as a Lead Developer with five developers working directly under me.",
   aboutMe2:
     "One of my specialties is taking an idea from scratch and creating a full-fledged platform.",
 };

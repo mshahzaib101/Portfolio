@@ -5,20 +5,22 @@ const servicesData = [
   {
     id: 1,
     name: "Front-end Development",
-    content: "I am expert in React.js, Next.js, Gatsby.js",
+    content:
+      "I specialize in React.js, Next.js, and Gatsby.js for building fast, scalable applications.",
     icon: "icon-globe",
   },
   {
     id: 2,
     name: "Backed-end Development",
-    content: "I have expertise in Node.js, Fastify.js, Express.js",
+    content:
+      "I specialize in Node.js, Fastify, Express.js and Python for building efficient, scalable server-side applications.",
     icon: "icon-chemistry",
   },
   {
     id: 3,
     name: "Database Management",
     content:
-      "I can design SQL/NoSQL databases using Firebase, AWS, MongoDB, GCP",
+      "I design and manage both SQL and NoSQL databases using Firebase, AWS, MongoDB, Redis, Supabase and GCP for optimized data handling and scalability.",
     icon: "icon-cloud-upload",
   },
 
@@ -26,21 +28,23 @@ const servicesData = [
     id: 5,
     name: "Project Management",
     content:
-      "I am also doing Project Management at Vaionex using Hubstaff, Clickup, Trello",
+      "I lead project management at Vaionex, utilizing tools like Hubstaff, ClickUp, and Trello to ensure efficient team collaboration and project delivery.",
+
     icon: "icon-organization",
   },
   {
     id: 4,
     name: "Project Lead",
     content:
-      "I can lead a project and will makes sure a project is carried through",
+      "I excel at leading projects, ensuring they are executed smoothly from concept to completion with a focus on quality and timely delivery.",
+
     icon: "icon-rocket",
   },
   {
     id: 6,
     name: "Testing & Debugging",
     content:
-      "I am great at testing and debugging web apps. I can find and fix the errors.",
+      "I excel in testing and debugging web applications, efficiently identifying and resolving errors to ensure optimal performance and reliability.",
     icon: "icon-speedometer",
   },
 ];

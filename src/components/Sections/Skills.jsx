@@ -7,11 +7,6 @@ const skillData = {
     "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarks grove right at the coast of the Semantics",
   progressData: [
     {
-      id: 2,
-      name: "HTML & CSS",
-      percentage: 90,
-    },
-    {
       id: 1,
       name: "JavaScript / Typescript",
       percentage: 85,
@@ -22,24 +17,71 @@ const skillData = {
       percentage: 90,
     },
     {
+      id: 13,
+      name: "Next.js",
+      percentage: 95,
+    },
+    {
+      id: 18,
+      name: "Tailwind CSS | Shadcn",
+      percentage: 75,
+    },
+    {
+      id: 14,
+      name: "Fastify.js",
+      percentage: 75,
+    },
+    {
       id: 4,
-      name: "Node.js",
+      name: "Node.js | Deno",
       percentage: 80,
     },
     {
+      id: 15,
+      name: "OpenAI apis",
+      percentage: 85,
+    },
+    {
+      id: 16,
+      name: "Firebase",
+      percentage: 90,
+    },
+
+    {
+      id: 20,
+      name: "Supabase",
+      percentage: 75,
+    },
+    {
+      id: 17,
+      name: "Redis",
+      percentage: 70,
+    },
+    {
+      id: 18,
+      name: "Elastic Search",
+      percentage: 65,
+    },
+    {
       id: 5,
-      name: "Express.js / Fastify.js",
+      name: "Express.js",
       percentage: 70,
     },
     {
       id: 6,
-      name: "Next.js / Gatsby.js",
+      name: "Gatsby.js",
       percentage: 90,
     },
     {
       id: 7,
       name: "AWS",
       percentage: 60,
+    },
+
+    {
+      id: 19,
+      name: "Google Cloud",
+      percentage: 65,
     },
 
     {
@@ -75,6 +117,16 @@ const skillData = {
       percentage: 70,
     },
     {
+      id: 21,
+      name: "Docker",
+      percentage: 80,
+    },
+    {
+      id: 22,
+      name: "Python",
+      percentage: 60,
+    },
+    {
       id: 12,
       name: "Blockchain",
       percentage: 60,
@@ -85,8 +137,7 @@ const skillData = {
 function Skills() {
   return (
     <>
-      <p className="mb-0">{skillData.skillContent}</p>
-      <div className="mt-5">
+      <div className="mt-2">
         <div className="row -mt-50">
           {skillData.progressData.map((progress) => (
             <div className="col-md-6 mt-50" key={progress.id}>

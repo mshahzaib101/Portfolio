@@ -8,10 +8,8 @@ const aboutData = {
   location: "Dubai, UAE/ Karachi, Pakistan",
   birthday: "6 Jan, 2000",
   email: "mshahzaib101ed@gmail.com",
-  aboutMe: `I am Shahzaib, Full-stack developer from UAE / Pakistan. I have specialized in responsive web and application development for startups and small to medium size businesses.
-    My skill set includes wide-ranging expertise in Javascript frameworks such as React.js, Next.js and Gatsby.js. I am also great at Node.js, Bootstrap, Firebase, AWS, MongoDB, Python and a whole host of other technologies, and libraries. Whatever your needs are, I will find a solution that fits it.
-    
-    `,
+  aboutMe: `I am Shahzaib, Full-stack developer from UAE / Pakistan. I am a highly skilled Full Stack Developer with over 6 years of experience, specializing in JavaScript, Node.js, React, Next.js, and AWS. With a strong background in both frontend and backend technologies, I have led teams and delivered successful projects across Web3, AI, and blockchain domains, using tools like Fastify, Express.js, MongoDB, GCP, OpenAi apis and Firebase.
+`,
 };
 
 function About() {
