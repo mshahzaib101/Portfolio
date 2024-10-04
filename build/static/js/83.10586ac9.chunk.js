@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamshahzaib=self.webpackChunkiamshahzaib||[]).push([[83],{83:(a,e,s)=>{a.exports=s.p+"static/media/creative-bulb.aaa1dcb4178d95736d30.md"}}]);

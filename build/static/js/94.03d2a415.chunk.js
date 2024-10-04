@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamshahzaib=self.webpackChunkiamshahzaib||[]).push([[94],{8094:(a,c,e)=>{a.exports=e.p+"static/media/iphone-8.ed29cc1cc0f098f253ac.md"}}]);

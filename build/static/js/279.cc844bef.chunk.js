@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamshahzaib=self.webpackChunkiamshahzaib||[]).push([[279],{5279:(a,e,s)=>{a.exports=s.p+"static/media/the-truth-about-design.2f0caa6bb7e2d9e7888d.md"}}]);
